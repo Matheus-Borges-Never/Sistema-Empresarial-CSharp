@@ -1,0 +1,12 @@
+C:\Users\Matheus\source\repos\Sistema\Sistema\bin\Debug\Sistema.exe.config
+C:\Users\Matheus\source\repos\Sistema\Sistema\bin\Debug\Sistema.exe
+C:\Users\Matheus\source\repos\Sistema\Sistema\bin\Debug\Sistema.pdb
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.AssemblyReference.cache
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.Form1.resources
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.FormEmpresa.resources
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.exe
+C:\Users\Matheus\source\repos\Sistema\Sistema\obj\Debug\Sistema.pdb
