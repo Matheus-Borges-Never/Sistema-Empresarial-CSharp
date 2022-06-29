@@ -48,6 +48,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtEmpresa = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnCep = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +66,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel1.Controls.Add(this.btnCep);
             this.panel1.Controls.Add(this.txtRua);
             this.panel1.Controls.Add(this.txtBairro);
             this.panel1.Controls.Add(this.label8);
@@ -121,6 +123,7 @@
             this.mtbCep.Size = new System.Drawing.Size(89, 20);
             this.mtbCep.TabIndex = 18;
             this.mtbCep.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.mtbCep.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbCep_MaskInputRejected);
             // 
             // mtbTelefone
             // 
@@ -267,6 +270,20 @@
             this.label2.Text = "Empresa:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btnCep
+            // 
+            this.btnCep.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnCep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCep.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCep.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnCep.Location = new System.Drawing.Point(501, 194);
+            this.btnCep.Name = "btnCep";
+            this.btnCep.Size = new System.Drawing.Size(115, 35);
+            this.btnCep.TabIndex = 9;
+            this.btnCep.Text = "Cep";
+            this.btnCep.UseVisualStyleBackColor = false;
+            this.btnCep.Click += new System.EventHandler(this.btnCep_Click);
+            // 
             // FormEmpresa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -304,5 +321,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtEmpresa;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnCep;
     }
 }
